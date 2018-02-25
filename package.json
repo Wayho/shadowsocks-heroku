@@ -8,6 +8,6 @@
     "ws": "^3.3.3"
   },
   "scripts": {
-    "start": "node server.js -b 0.0.0.0"
+    "start": "node test.js"
   }
 }
