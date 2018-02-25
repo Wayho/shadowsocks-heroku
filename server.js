@@ -55,7 +55,7 @@ if (['', 'null', 'table'].includes(METHOD.toLowerCase())) {
 
 const server = http.createServer(function(req, res) {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('asdf.');
+  res.end('200OK.');
 });
 
 const wss = new WebSocketServer({ server });
