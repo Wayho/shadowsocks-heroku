@@ -49,7 +49,7 @@ const PORT = config.remote_port;
 const KEY = config.password;
 let METHOD = config.method;
 
-console.log(config);
+//console.log(config);
 
 if (['', 'null', 'table'].includes(METHOD.toLowerCase())) {
   METHOD = null;
