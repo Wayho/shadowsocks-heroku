@@ -50,6 +50,7 @@ const KEY = config.password;
 let METHOD = config.method;
 
 //console.log(config);
+console.log(process.env);
 
 if (['', 'null', 'table'].includes(METHOD.toLowerCase())) {
   METHOD = null;
