@@ -1,3 +1,4 @@
+console.log('**********************local.js***********************');
 const net = require('net');
 const url = require('url');
 const http = require('http');
