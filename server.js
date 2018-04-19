@@ -1,3 +1,4 @@
+console.log('**********************server.js***********************');
 const net = require('net');
 const fs = require('fs');
 const path = require('path');
